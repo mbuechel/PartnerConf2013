@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="219873" started-at="2013-10-15T03:08:58Z" finished-at="2013-10-15T03:12:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="219873" started-at="2013-10-15T03:08:58Z" finished-at="2013-10-15T03:12:38Z">
+      <class name="argos.saleslogix.selenium.test.UnitTestX">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e]" name="launchBrowser" is-config="true" duration-ms="13201" started-at="2013-10-14T20:08:58Z" finished-at="2013-10-14T20:09:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test00_MobileClient_Login()[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e]" name="test00_MobileClient_Login" duration-ms="26912" started-at="2013-10-14T20:09:11Z" finished-at="2013-10-14T20:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test00_MobileClient_Login -->
+        <test-method status="PASS" signature="checkVP(org.testng.ITestResult)[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e]" name="checkVP" is-config="true" duration-ms="0" started-at="2013-10-14T20:09:38Z" finished-at="2013-10-14T20:09:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test00_MobileClient_Login status=SUCCESS method=UnitTestX.test00_MobileClient_Login()[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVP -->
+        <test-method status="PASS" signature="test06_MBL10112_Accounts_NoFiltering()[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e]" name="test06_MBL10112_Accounts_NoFiltering" duration-ms="163080" started-at="2013-10-14T20:09:38Z" finished-at="2013-10-14T20:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_MBL10112_Accounts_NoFiltering -->
+        <test-method status="PASS" signature="test99_Mobile_LogOut()[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e]" name="test99_Mobile_LogOut" duration-ms="15790" started-at="2013-10-14T20:12:21Z" finished-at="2013-10-14T20:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test99_Mobile_LogOut -->
+        <test-method status="PASS" signature="checkVP(org.testng.ITestResult)[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e]" name="checkVP" is-config="true" duration-ms="0" started-at="2013-10-14T20:12:21Z" finished-at="2013-10-14T20:12:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test06_MBL10112_Accounts_NoFiltering status=SUCCESS method=UnitTestX.test06_MBL10112_Accounts_NoFiltering()[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVP -->
+        <test-method status="PASS" signature="checkVP(org.testng.ITestResult)[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e]" name="checkVP" is-config="true" duration-ms="0" started-at="2013-10-14T20:12:37Z" finished-at="2013-10-14T20:12:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test99_Mobile_LogOut status=SUCCESS method=UnitTestX.test99_Mobile_LogOut()[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVP -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e]" name="closeBrowser" is-config="true" duration-ms="869" started-at="2013-10-14T20:12:37Z" finished-at="2013-10-14T20:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="copyReport()[pri:0, instance:argos.saleslogix.selenium.test.UnitTestX@18aea9e]" name="copyReport" is-config="true" duration-ms="0" started-at="2013-10-14T20:12:38Z" finished-at="2013-10-14T20:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyReport -->
+      </class> <!-- argos.saleslogix.selenium.test.UnitTestX -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

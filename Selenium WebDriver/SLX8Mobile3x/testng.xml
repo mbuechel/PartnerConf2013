@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile3x Full-Test Suite" verbose="3" parallel="classes">
+
+  <test name="Account Entity Views Test - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.AccountEntityViewsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+
+  <test name="Contact Entity Views Tests - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.ContactEntityViewsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="Global Menu Navigation Test - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.GlobalMenuNavigationTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="Hash Tags Test - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.HashTagsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="Lead Entity Views Test - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.LeadEntityViewsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+    
+  <test name="My Activitiy Views Test - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.MyActivityViewsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="My Attachments Views Test - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.MyAttachmentsViewsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="Notes History Views Test - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.NotesHistoryViewsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="Opportunity Views Test - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.OpportunityViewsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="Speed Search Test - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.SpeedSearchTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="Ticket Views Test - FF 17">
+  	<parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="argos.saleslogix.selenium.test.TicketViewsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+
+</suite>

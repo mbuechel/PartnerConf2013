@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>IDEDemoFinished</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">IDEDemoFinished</td></tr>
+</thead><tbody>
+<!--Open Saleslogix login page-->
+<tr>
+	<td>open</td>
+	<td>/SlxClient/Login.aspx</td>
+	<td></td>
+</tr>
+<!--Enter 'lee' in the username field-->
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolderArea_slxLogin_UserName</td>
+	<td>lee</td>
+</tr>
+<!--Click the login button-->
+<tr>
+	<td>clickAndWait</td>
+	<td>id=ContentPlaceHolderArea_slxLogin_btnLogin</td>
+	<td></td>
+</tr>
+<!--Click the Account Navbutton-->
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#navEntitiesAccount &gt; a &gt; span</td>
+	<td></td>
+</tr>
+<!--Click the 'Abbott Ltd.' record-->
+<tr>
+	<td>clickAndWait</td>
+	<td>XPath=.//*[@class='dojoxGridContent']/descendant::*[@title='Abbott Ltd.']</td>
+	<td></td>
+</tr>
+<!--Verify 'Abbott Ltd.' is populated in the Account field-->
+<tr>
+	<td>verifyValue</td>
+	<td>XPath=.//*[@id='MainContent_AccountDetails_AccountName']</td>
+	<td>Abbott Ltd.</td>
+</tr>
+<!--Logoff-->
+<tr>
+	<td>clickAndWait</td>
+	<td>id=btnLogOff_text</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
